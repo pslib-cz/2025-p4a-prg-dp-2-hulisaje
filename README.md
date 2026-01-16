@@ -6,7 +6,7 @@ Používáme State pattern, který umožňuje runtimově měnit chování logov�
 
 <h2>Proč State pattern?</h2>
 <ul>
-  <li><b>Žádné změny existujícího kódu:</b> aplikace pořád volá <code>ILgger.Log()</code></li>
+  <li><b>Žádné změny existujícího kódu:</b> aplikace pořád volá <code>ILogger.Log()</code></li>
   <li><b>Dynamická výměna logování:</b> přepínání mezi legacy loggerem a analytikou</li>
   <li><b>Izolace změn:</b> adaptace třetí strany je zapouzdřena ve vlastní třídě</li>
   <li><b>Rozšiřitelnost:</b> nové logovací strategie se jednoduše implementují</li>
